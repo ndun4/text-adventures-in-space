@@ -7,12 +7,12 @@ class World(object):
     def __init__(self, xdim, ydim):
         self.xdim = xdim
         self.ydim = ydim
-	self.tiles = list((x, y) for x in range(xdim) for y in range(ydim))
-	self.size = len(self.tiles)
+        self.tiles = list((x, y) for x in range(xdim) for y in range(ydim))
+        self.size = len(self.tiles)
 
 
 class Chunk(World):
-    """Defines a chunk, which is a chunk of the world that will be loaded in memory. Necessary for world to be procedurally generated."""
+	"""Defines a chunk, which is a chunk of the world that will be loaded in memory. Necessary for world to be procedurally generated."""
 
-    def __init__():
-	pass
+	def __init__(self):
+		pass
